@@ -1,0 +1,254 @@
+1. A number is given as input. Find the odd digits in the number, add them and find if the sum is odd or not.if even return -1, if odd return 1
+input:52315
+logic:5+3+1+5=14(even)
+output:-1
+input:1112
+logic:1+1+1=3(odd)
+output:1
+
+2.Find the day(Friday) of a date input given as MM-dd-yyyy (format)
+input:12-27-2012
+output:Thursday
+
+
+3.A integer array is given as input. find the difference between each element. Return the index of the largest element which has the largest difference gap.
+input: {2,3,4,2,3}
+logic: 2-3=1,3-4=1,4-2=2,2-3=1
+2 is the max diff between 4 and 2,return the index of 4 i.e 2
+output:2
+
+
+4.Given two integer arrays. merge the common elements into a new array. find the sum of the elements
+input1:{1,2,3,4}
+input2:{3,4,5,6}
+logic:{3,4}
+output:7
+
+
+5.Given two arrayslist. retrieve the odd position elements form first input and even position elemetns from second list. 
+put it into the new arraylist at the same positions from where they are retrieved from.
+(consider 0th position as even position, and two lists are of same size)
+input1:{12,1,32,3}
+input2:{0,12,2,23}
+output:{0,1,2,3}
+
+
+6. Sum of fibonaaci series upto given input.
+sum of first 3 
+logic:1+1+2
+output:4
+
+
+7. Retrieve the odd numbers till given input number. add and subtract it consecutively and return the result.
+Input:9
+Output:1+3-5+7-9=-3
+
+
+
+8. Given date in dd-MM-yyyy format.return the month in full name format(January)
+input:"23-01-2012"
+output:January
+
+
+
+9. Two dates are given as input in "yyyy-MM-dd" format. Find the number of months between the two dates
+input1:"2012-12-01"
+input2:"2012-01-03"
+output:11
+
+
+
+10. arraylist of string type which has name#mark1#mark2#mark3 format. retrieve the name of the student who has scored max marks(total of three)
+input:{"arun#12#12#12","deepak#13#12#12"}
+output:deepak
+
+
+
+11.Two inputs of a string array and a string is received. The array shld be sorted in descending order. The index of second input in a array shld be retrieved.
+input1:{"ga","yb","awe"}
+input2:awe
+output:2
+
+
+12.A time input is received as stirng. Find if the hour format is in 12 hour format. the suffix am/pm is case insensitive.
+input:"09:36 am"
+output:true
+
+
+13.Retrieve the palindorme-true number set from given number limit and return the sum
+input1:90 input2:120
+logic:99+101+111
+output:311
+
+
+14.find the max length-word in a given string and return the max-length word. if two words are of same length return the first occuring word of max-length
+input:"hello how are you aaaaa"
+output:hello(length-5)
+
+
+15. Get a input string. reverse it and parse it with '-'.
+input:computer
+output:r-e-t-u-p-m-o-c
+
+
+16. HashMap with regnum as key and mark as value. find the avg of marks whose key is odd.
+input:{12:90,35:90,33:90,56:88}
+output:avg of(90+90) =90
+
+
+17. A integer input is accepted. find the square of individual digits and find their sum.
+input:125
+output:1*1+2*2+5*5
+
+
+18.Two input strings are accepted. If the two strings are of same length concat them and return, if they are not of same length, reduce the longer string to size of smaller one, and concat them
+input1:"hello"
+input2:"hi" 
+output:"lohi"
+input1:"aaa"
+input2:"bbb"
+output:"aaabbb"
+
+
+19.accept a string and find if it is of date format "dd/mm/yyyy".
+input:01/13/2012
+output:false
+
+
+20. Get a integer array as input. Find the average of the elements which are in the position of prime index
+input:{1,2,3,4,5,6,7,8,9,10}
+logic:3+4+6+8(the indeces are prime numbers)
+output:21
+
+
+21.Find the extension of a given string file.
+input: "hello.jpeg"
+output: "jpeg"
+
+
+22.Get two integer arrays as input. Find if there are common elements in the arrays. find the number of common elements.
+input1: {1,2,3,4}
+input2: {3,4,5,6}
+output: 4(3,4,3,4)
+
+
+23.Find if a given pattern appears in both the input strings at same postions.
+input1: "hh--ww--"
+input2: "rt--er--"
+output: true(false otherwise)
+
+
+24. Input a int array. Square the elements in even position and cube the elements in odd position and add them as result.
+input: {1,2,3,4}
+output: 1^3+2^2+3^3+4^2
+
+
+25. Check whether a given string is palindrome also check whether it has atleast 2 different vowels
+input: "madam"
+output: false(no 2 diff vowels)
+
+
+26. Find no of characters in a given string which are not repeated.
+input: "hello"
+output: 3
+
+
+27. Get a input string. Find if it is a negative number, if true return the absolute value, in other cases return -1.
+input: "-123"
+output: 123
+input: "@123"
+output: -1
+
+
+28.An arraylist of Strings is given as input. The count of the String elements that are not of size input2 string is to be returned.
+input1: {"aaa","bb","cccc","d"}
+input2: "bb"
+output: 3("bb"-length:2)
+
+
+29.An array of integers is given.The given element is removed new array is returned.
+input1:{10,10,20,30,76}
+output: {20,20,76}(10 is asked to remove)
+
+
+30. Find the number of days between two input dates.
+
+
+31.Enter yout name and return a string "print the title first and then comma and then first letter of initial name.
+
+
+32.Write a Program that accepts a string and removes the duplicate characters.
+
+
+33.validate a password 
+i) there should be atleast one digit
+ii) there should be atleast one of '#','@' or '$' .
+iii)the password should be of 6 to 20 characters
+iv) there should be more uppercase letter than lower case.
+v) should start with an upper case and end with lower case
+ 
+
+
+34. find the average of the maximum and minimum number in an integer array
+
+
+35.validate the ip address in the form a.b.c.d
+   where a,b,c,d must be between 0and 255
+   if validated return 1 else return 2
+
+36. find the three consecutive characters in a string. if the string consists any three 
+   consecutive characters return 1 else return -1
+   like AAAxyzaaa will return true.
+
+
+37.String encrption. replace the odd-index character with next character(if it is 'z' replace with 'a'..if 'a' with 'b' as such), 
+leave the even index as such. return the encrypted string.
+
+
+38. Retrieve the max from array which is in a odd-index
+
+
+39.GIVEN A STRING 555-666-1234
+DISPLAY AS 55-56-661-234?
+
+
+40.input1="Rajasthan";
+input2=2;
+input3=5;
+output=hts;
+
+
+41.input1={1,2,3}
+input2={3,4,5}
+input3;+(union)
+output:inp1+inp2
+input1:{1,2,3,4,5}
+input 2:{2,3,4,5}
+input3=*(intersection)
+output:inp1*inp2
+INPUT1:{1,2,3,4,5}
+INPUT2:{3,6,7,8,9}
+INPUT3:-(MINUS)
+output:inp1-inp2
+
+
+42. input1=commitment;
+  output=cmmitmnt;
+c be the first index position 
+remove even vowels from the string
+
+
+43. Retrieve the odd-position digits from input integer array. Multiply them with their index and return their sum.
+
+
+44. Return the number of days in a month, where month and year are given as input.
+
+
+
+45. Retrieve the non-prime numbers within the range of a given input. Add-up the non-prime numbers and return the result.
+
+
+46. Retrieve the elements in a array, which is an input, which are greater than a specific input number. Add them and find the reverse of the sum.
+
+
+47.Input a hashmap. Count the keys which are not divisible by 4 and return.
